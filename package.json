@@ -1,0 +1,38 @@
+{
+  "name": "jwt-authentication-server",
+  "version": "1.0.0",
+  "description": "A JSON Web Token authenticated server using Express and MOngoDb.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/C-Rodg/JWT-authentication-server.git"
+  },
+  "keywords": [
+    "MongoDB",
+    "Express",
+    "JWT",
+    "authentication"
+  ],
+  "author": "Curtis Rodgers",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/C-Rodg/JWT-authentication-server/issues"
+  },
+  "homepage": "https://github.com/C-Rodg/JWT-authentication-server#readme",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.15.2",
+    "cors": "^2.8.1",
+    "express": "^4.14.0",
+    "jwt-simple": "^0.5.1",
+    "mongoose": "^4.7.4",
+    "morgan": "^1.7.0",
+    "nodemon": "^1.11.0",
+    "passport": "^0.3.2",
+    "passport-jwt": "^2.2.1",
+    "passport-local": "^1.0.0"
+  }
+}
