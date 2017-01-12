@@ -9,7 +9,7 @@ const app = express();
 const router = require('./router');
 
 // Setup MongoDB
-mongoose.connect('')
+mongoose.connect('mongodb://localhost:auth/auth');
 
 // Setup App
 app.use(morgan('combined')); // for logging requests
